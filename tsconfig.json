@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "module": "es2015",
+    "target": "es5",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "declaration": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "types": ["node"],
+    "lib": ["es2015", "dom"]
+  },
+  "files": [
+    "index.ts",
+    "ng2-channels.ts",
+    "./src/interfaces.ts",
+    "./src/websocket.subscription.ts",
+    "./src/channels.service.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "bundles"
+  ],
+  "angularCompilerOptions": {
+    "strictMetadataEmit": true,
+    "skipTemplateCodegen": true
+  }
+}
